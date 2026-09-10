@@ -50,6 +50,29 @@ Cấu hình MCP thủ công, nếu muốn tự làm:
 | `Đăng ký MCP server` | Chạy `claude mcp add` giúp bạn |
 | `Reload embedded package` | Bung lại package nhúng |
 
+## Demo — thứ Claude dựng được
+
+`Audio Reactive Particles x Claude Demo.toe` là project dựng **hoàn toàn qua cầu nối này**: mình gõ yêu cầu, Claude tạo node và viết GLSL thẳng trong TouchDesigner.
+
+A project built **entirely through this bridge** — every node and every line of GLSL was written by Claude inside TouchDesigner.
+
+[⬇️ Tải file demo](./Audio%20Reactive%20Particles%20x%20Claude%20Demo.toe) · 104 KB · 54 node
+
+Bên trong:
+
+- Chuỗi phân tích audio tách 4 dải `bass / mid / high / energy`, mỗi dải có gain + lag riêng
+- Particle sim chạy bằng **GLSL compute shader** (position/velocity trong texture)
+- Render có trail feedback + camera
+
+Mở lên rồi làm 2 bước:
+
+1. Chọn node `audiofilein1` → tham số **File** → trỏ tới một bản nhạc của bạn (file để trống sẵn, không kèm nhạc vì lý do bản quyền).
+2. Bấm play.
+
+> 🔊 Patch có `Audio Device Out` — mở lên là **phát tiếng ra loa** ngay. Vặn nhỏ trước nếu bạn đang đeo tai nghe hoặc ngồi chỗ đông người.
+
+Đây chỉ là demo cho vui, không phải "project file được chăm chút" — cứ mổ xẻ thoải mái.
+
 ## ⚠️ Lưu ý bảo mật / Security
 
 Khi kết nối, component mở một **WebServer trên localhost** cho phép **chạy Python tuỳ ý bên trong TouchDesigner**. Đó chính là cách Claude điều khiển TD, nhưng cũng có nghĩa:
