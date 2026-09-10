@@ -11,6 +11,7 @@ Free TouchDesigner project files by **LEOXI**. Download, open, take them apart, 
 | Project | Mô tả | Tải về |
 |---|---|---|
 | [Amplitude Modulation Creatures](./Amplitude%20Modulation%20Creatures) | Sinh vật hữu cơ dựng bằng điều biến biên độ — audio-reactive | [.toe](./Amplitude%20Modulation%20Creatures/Amplitude%20Modulation%20Creatures.toe) |
+| [Dune Generative Art](./Dune%20Generative%20Art) | Cồn cát chuyển động — 8 lớp noise + displace + feedback, thuần TOP, không GLSL | [.toe](./Dune%20Generative%20Art/Dune%20Generative%20Art.toe) |
 | [Claude Bridge](./Claude%20Bridge) | Cầu nối Claude ⇄ TouchDesigner trong 1 file .tox — kéo vào là Claude điều khiển được TD | [.tox](./Claude%20Bridge/claude_bridge.tox) |
 | [Audio Reactive Particles x Claude Demo](./Claude%20Bridge#demo--thứ-claude-dựng-được) | GLSL compute particles + trail, 4 dải audio — dựng hoàn toàn bằng Claude qua cầu nối trên | [.toe](./Claude%20Bridge/Audio%20Reactive%20Particles%20x%20Claude%20Demo.toe) |
 
