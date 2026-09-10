@@ -11,6 +11,7 @@ Free TouchDesigner project files by **LEOXI**. Download, open, take them apart, 
 | Project | Mô tả | Tải về |
 |---|---|---|
 | [Amplitude Modulation Creatures](./Amplitude%20Modulation%20Creatures) | Sinh vật hữu cơ dựng bằng điều biến biên độ — audio-reactive | [.toe](./Amplitude%20Modulation%20Creatures/Amplitude%20Modulation%20Creatures.toe) |
+| [Claude Bridge](./Claude%20Bridge) | Cầu nối Claude ⇄ TouchDesigner trong 1 file .tox — kéo vào là Claude điều khiển được TD | [.tox](./Claude%20Bridge/claude_bridge.tox) |
 
 ---
 
@@ -36,6 +37,8 @@ git clone https://github.com/leoxi2005/free-touchdesigner-project-files.git
 ## Giấy phép / License
 
 [CC BY 4.0](./LICENSE) — dùng tự do, kể cả thương mại. Chỉ cần ghi nguồn khi bạn chia sẻ lại hoặc dựng lại từ đây.
+
+> **Ngoại lệ:** thư mục [`Claude Bridge/`](./Claude%20Bridge) theo giấy phép **MIT**, vì bên trong có nhúng code của [touchdesigner-mcp](https://github.com/8beeeaaat/touchdesigner-mcp) (MIT).
 
 Free to use, including commercially. Just credit **LEOXI** if you redistribute or build on these.
 
